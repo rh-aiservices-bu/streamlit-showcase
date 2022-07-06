@@ -36,7 +36,7 @@ def ShowData():
     # so2021.head()
     # st.dataframe(so2021,10,10)
     # st.table(so2021)abs
-    st.bar_chart(so2021)
+    st.bar_chart(so2021['MainBranch'])
 
 
 st.button(
